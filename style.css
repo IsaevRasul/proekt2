@@ -78,13 +78,16 @@ body {
   width: 400px;
   height: 600px;
   border-radius: 10px;
-  margin-left: 30px;
 }
 
 .flexboxrow {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.flexbox {
+  padding-top: 30px;
 }
 
 .basket {
@@ -99,11 +102,28 @@ body {
 }
 
 .basket2 {
-  width: 110px;
-  height: 100px;
-  border-radius: 100px;
+  width: 30px;
+  position: relative;
+  bottom: 15px;
 }
 
-.flexbox {
-  display: flexbox;
+.basket3 {
+  width: 50px;
+  position: relative;
+  bottom: 1px;
+}
+
+.sennik {
+  position: relative;
+  left: 60px;
+  bottom: 250px;
+}
+
+.imgposition {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 130px;
+  top: 40px;
+  z-index: 2;
 }
